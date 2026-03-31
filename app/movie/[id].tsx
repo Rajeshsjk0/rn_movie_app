@@ -44,7 +44,7 @@ const Details = () => {
 
   return (
     <View className="bg-primary flex-1">
-      {/* <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
+      <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
         <View>
           <Image
             source={{
@@ -123,8 +123,7 @@ const Details = () => {
           tintColor="#fff"
         />
         <Text className="text-white font-semibold text-base">Go Back</Text>
-      </TouchableOpacity> */}
-      Details
+      </TouchableOpacity>
     </View>
   );
 };
